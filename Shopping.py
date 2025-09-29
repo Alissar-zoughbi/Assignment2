@@ -29,4 +29,8 @@ for thing in cart:
 
 print("\nYou bought:", cart)
 print("Total = $", total)
+if total > 10:
+    print("You spent a lot!")
+else:
+    print("You spent a little!")
 
